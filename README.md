@@ -32,7 +32,7 @@ A resposta dessa requisição contém um objeto JSON com a seguinte formatação
     }
 ```
 ## Funcionalidades
-- Busca de uma imagem aleatória de cachorro da Dog API.
+- Busca de uma imagem aleatória de API.
 - Exibição da imagem no navegador.
 - Botão para atualizar a imagem com uma nova, gerada aleatoriamente.
 
@@ -43,7 +43,7 @@ A resposta dessa requisição contém um objeto JSON com a seguinte formatação
 - **Dog API**: API pública para buscar imagens de cães aleatórias.
 
 ## Como Funciona
-O projeto utiliza a (https://metmuseum.github.io/) para obter uma imagem aleatória de cachorro. A API retorna um objeto JSON com a URL da imagem, que é usada para exibir a imagem na página.
+O projeto utiliza a (https://metmuseum.github.io/) para obter uma imagem aleatória. A API retorna um objeto JSON com a URL da imagem, que é usada para exibir a imagem na página.
 
 ### Exemplo de Resposta da API:
 ```json
@@ -56,7 +56,7 @@ O projeto utiliza a (https://metmuseum.github.io/) para obter uma imagem aleató
 ## Instalação e Execução
 1. Faça o clone deste repositório para o seu ambiente local.
 2. Abra o arquivo `index.html` em seu navegador.
-3. Clique no botão "Get Random Dog" para buscar e exibir uma nova imagem de cachorro.
+3. Clique no botão "Get Random Dog" para buscar e exibir uma nova imagem.
 
 ## Estrutura do Projeto
 - **index.html**: Contém a estrutura da página e inclui o script e o CSS.
@@ -82,12 +82,6 @@ function getRandomDogImage() {
         });
 }
 ```
-
-## Melhorias Futuras
-- Adicionar um seletor para escolher a raça do cachorro.
-- Melhorar o layout com responsividade.
-- Incluir uma barra de loading enquanto a imagem é carregada.
-- 
 
 ### :family: Integrantes do Projeto
 
