@@ -85,7 +85,7 @@ function getRandomDogImage() {
 ## Resultado visual
 O código presente neste repositório, quando executado em um navegador apresenta o versículo no centro da página, como mostra a imagem a seguir:
 
-![Exemplo de apresentação do versículo](IMAGEM.png)
+![Exemplo de apresentação de imagem](imagem.PNG)
 
 ### :family: Integrantes do Projeto
 
