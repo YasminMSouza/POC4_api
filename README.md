@@ -1,7 +1,7 @@
-# Consumo de API com fetch
+# 📚 Consumo de API com fetch
 Este projeto é uma Prova de Conceito (POC) que demonstra como consumir uma API para buscar e exibir imagens de cães aleatórias usando JavaScript e o método `fetch`.
 
-## Funcionamento básico da API
+## 📃 Funcionamento básico da API
 Para o consumo de dados da API, é necessário construir uma URL com base na documentação da API. Neste caso, foi utilizado o seguinte endpoint:
 ```
 https://collectionapi.metmuseum.org/public/collection/v1/objects/110
@@ -36,7 +36,7 @@ A resposta dessa requisição contém um objeto JSON com a seguinte formatação
 - Exibição da imagem no navegador.
 - Botão para atualizar a imagem com uma nova, gerada aleatoriamente.
 
-## Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 - **HTML5**: Estrutura básica da página.
 - **CSS3**: Estilização da página.
 - **JavaScript**: Lógica de busca da API e manipulação do DOM.
@@ -82,7 +82,7 @@ function getRandomDogImage() {
         });
 }
 ```
-## Resultado visual
+## 🌆 Resultado visual
 O código presente neste repositório, quando executado em um navegador apresenta o versículo no centro da página, como mostra a imagem a seguir:
 
 ![Exemplo de apresentação de imagem](imagem.PNG)
